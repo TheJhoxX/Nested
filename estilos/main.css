@@ -1,0 +1,38 @@
+body {
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+section {
+    display: flex;
+    min-height: 100vh;
+
+    
+}
+
+.nests {
+    height: 100;
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    transition: 0.5s ease;
+    background-image: url(../imagenes/pajaro.jpeg);
+}
+
+section img {
+    height: 100;
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    transition: 0.5s ease;
+}
+
+section img:hover {
+    width: 300px;
+    filter: contrast(120%);
+}
+
+.nests:hover {
+    width: 300px;
+    filter: contrast(120%);
+}

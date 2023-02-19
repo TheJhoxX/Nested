@@ -1,0 +1,81 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #AA2789, #6C91C2);
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container-carta-login {
+    min-width: 300px;
+}
+
+.carta-login {
+    background-color: rgba(225, 225, 255, 0.7);
+    position: relative;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 4rem;
+    box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.carta-login-logo img{
+    width: 80px;
+    height: 80px;
+}
+
+
+.item {
+    margin: 4px;
+}
+
+.formulario-login {
+    margin: 4px;
+}
+
+input {
+    background-color: rgba(225, 225, 255, 0.7);
+    border: none;
+    border-radius: 10px;
+    height: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-align: center;
+}
+
+.check-item {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+button {
+    border-radius: 10px;
+    background-color: rgba(225, 225, 255, 0.9);
+    border: none;
+    padding: 1rem;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
