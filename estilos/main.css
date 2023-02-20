@@ -14,10 +14,24 @@ section {
     height: 100;
     width: 0px;
     flex-grow: 1;
-    object-fit: cover;
     transition: 0.5s ease;
-    background-image: url(../imagenes/pajaro.jpeg);
+    background-image: url(../imagenes/nests.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+.perfil {
+    height: 100;
+    width: 0px;
+    flex-grow: 1;
+    transition: 0.5s ease;
+    background-image: url(../imagenes/perfil.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 section img {
     height: 100;
@@ -33,6 +47,11 @@ section img:hover {
 }
 
 .nests:hover {
+    width: 300px;
+    filter: contrast(120%);
+}
+
+.perfil:hover {
     width: 300px;
     filter: contrast(120%);
 }

@@ -26,7 +26,7 @@ section {
 .carta-login {
     background-color: rgba(225, 225, 255, 0.7);
     position: relative;
-    border-radius: 10px;
+    border-radius: 20px;
     justify-content: center;
     padding: 4rem;
     box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.3);
@@ -50,7 +50,7 @@ section {
 input {
     background-color: rgba(225, 225, 255, 0.7);
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     height: 2rem;
     padding-left: 5rem;
     padding-right: 5rem;
@@ -64,7 +64,7 @@ input {
 }
 
 button {
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: rgba(225, 225, 255, 0.9);
     border: none;
     padding: 1rem;
