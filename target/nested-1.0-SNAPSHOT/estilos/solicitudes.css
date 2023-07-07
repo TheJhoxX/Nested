@@ -1,0 +1,212 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+    overflow: auto;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+
+#perfil-barra{
+    height: 40px;
+    width: 40px;
+}
+
+.cabecera-nests {
+    background-color: #3B3B3B;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.titulo-seccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F3FCF0;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.perfil {
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1rem;
+    display: flex;
+}
+
+.secciones-contactos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.seccion {
+    color: black;
+}
+
+.seccion:hover {
+    text-decoration: underline;
+    cursor: hand;
+    color: #890DC6;
+}
+
+.contenedor-solicitudes{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.solicitud{
+    background-position: center;
+    background-size: cover;
+    background-repeat:repeat;
+    color: black;
+    border-radius: 20px;
+    margin: 1% 1% 1% 1%;
+    background-image: url(../imagenes/fondo-slider.svg);
+    transition: all 300ms;
+    min-width: 20%;
+    max-width: 20%;
+    max-height: 50%;
+}
+
+.solicitud:hover{
+    box-shadow: 10px 10px 10px black;
+    transform: translate(-5px, -5px);
+}
+
+.foto-y-universidad{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foto-perfil{
+    max-width: 40%;
+    height: 40%;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-right: 10%;
+}
+
+.datos-perfil-universidad{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 10%;
+    max-width: 50%;
+}
+
+.texto-datos{
+    justify-content: center;
+    text-align: center;
+    font-size: 1vw;
+}
+
+.nombre-apellidos{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1vw;
+}
+
+.aceptar-rechazar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.boton-aceptar {
+	background-color: #890dc6;
+	color: #f3f5f8;
+	font-size: 20px;
+	font-weight: bolder;
+	border-radius: 20px;
+	width: 4rem;
+	text-align: center;
+	border: none;
+	transition: filter 0.5s;
+	cursor: pointer;
+    align-items: center;
+}
+.boton-rechazar {
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 20px;
+	font-weight: bolder;
+	border-radius: 20px;
+	width: 4rem;
+	text-align: center;
+    align-items: center;
+	border: none;
+	transition: filter 0.5s;
+	cursor: pointer;
+}
+
+.boton-aceptar:hover {
+	filter: drop-shadow(0px 8px 10px #890dc6);
+	transition: filter 0.5s;
+}
+
+.boton-rechazar:hover {
+	filter: drop-shadow(0px 8px 10px #890dc6);
+	transition: filter 0.5s;
+}
+
+.aceptar-rechazar .boton-aceptar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aceptar-rechazar .boton-rechazar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contenedor-amigos{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 20px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.amigo{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    border-radius: 20px;
+    margin: 10px 10px 10px 10px ;
+    background-image: url(../imagenes/fondo-slider.svg);
+    transition: all 300ms;
+    width: 20%;
+}
+
+.amigo:hover{
+    box-shadow: 10px 10px 10px black;
+    transform: translate(-5px, -5px);
+}
